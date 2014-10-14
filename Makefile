@@ -11,4 +11,4 @@ release: build
 	docker push ddollar/docker-gateway
 
 run: build
-	docker run ddollar/docker-gateway /docker-gateway
+	docker run ddollar/docker-gateway
